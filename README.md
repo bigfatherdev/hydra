@@ -85,26 +85,6 @@ Tor / Proxy Chains – Anonimização
 
 REST / JSON – Integração e automação
 
-📂 Estrutura do Projeto
-text
-Copiar código
-hydra/
-├── cmd/
-│   └── api/              # Entry point da API
-├── internal/
-│   ├── api/              # Controllers e rotas
-│   ├── scanner/          # Integração Masscan / ZGrab2
-│   ├── crawler/          # Colly
-│   ├── geoip/            # Enriquecimento GeoIP
-│   ├── domainfuzz/       # Fuzzy domains
-│   ├── storage/          # Banco de dados
-│   └── status/           # Status e métricas
-├── configs/
-├── scripts/
-├── docs/
-├── README.md
-└── go.mod
-⚙️ Instalação
 Pré-requisitos
 Go 1.21+
 
@@ -116,23 +96,6 @@ MariaDB ou MySQL
 
 Tor (opcional)
 
-Clonar o repositório
-bash
-Copiar código
-git clone https://github.com/SEU_USUARIO/hydra.git
-cd hydra
-Instalar dependências
-bash
-Copiar código
-go mod tidy
-▶️ Executando a API
-bash
-Copiar código
-go run cmd/api/main.go
-A API ficará disponível em:
-
-text
-Copiar código
 http://127.0.0.1:8102
 🔌 Uso da API
 Iniciar Scan de Domínio
