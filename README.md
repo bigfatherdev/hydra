@@ -67,6 +67,7 @@ O Hydra foi criado para oferecer **visibilidade completa da superfície de ataqu
             +------+------+
             |   Hydra API |
             +-------------+
+```
 🛠️ Tecnologias Utilizadas
 Go (Golang) – Core da aplicação
 
