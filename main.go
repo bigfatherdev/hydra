@@ -27,7 +27,7 @@ func main() {
 	db := storage.NewMariaDB()
 
 	mmdb := geoip.NewMMDB(
-		"/www/wwwroot/blackcerb.xyz/hydra.services/geoip-api/cmd/GeoLite2-Country.mmdb",
+		"./geoip-api/cmd/GeoLite2-Country.mmdb",
 	)
 
 	manticore := geoip.NewManticore()
@@ -124,3 +124,4 @@ go workers.FuzzerWSWorker(ctx, db.DB())
 		log.Fatal(err)
 	}
 }
+
