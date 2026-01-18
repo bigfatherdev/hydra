@@ -1,4 +1,4 @@
-# 🐙 Hydra Security Platform
+# 🛡️ Hydra Security Platform
 
 **Hydra** é uma plataforma modular de **cibersegurança ofensiva e defensiva** focada na **descoberta, análise e monitoramento de exposições de domínios, serviços e infraestruturas online**.
 
